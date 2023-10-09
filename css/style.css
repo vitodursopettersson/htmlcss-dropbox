@@ -9,3 +9,62 @@ Reset Default
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+**************
+Design System
+**************
+*/
+
+/* Color */
+
+:root {
+    --main-color: #3661FF;
+    --snd-color: #B4D0E7;
+    --text-color: #000000;
+    --alt-color: #61082B;
+
+}
+
+/* Typography */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+}
