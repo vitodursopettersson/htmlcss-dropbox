@@ -120,6 +120,7 @@ header a {
 header li:hover {
     border-bottom: 2px solid;
     border-color: var(--main-color);
+    margin-bottom: -2px;
 }
 
 /* 
