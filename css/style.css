@@ -52,7 +52,7 @@ h3 {
 
 h4 {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h6 {
@@ -175,4 +175,83 @@ section.above {
 .above img {
     width: 100%;
     margin-bottom: -80px;
+}
+
+/* 
+--------------
+Main
+--------------
+*/
+
+main {
+    margin-top: 80px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 40px;
+}
+
+/* Grid */
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.grid-column {
+    width: calc((100% - 100px) /3);
+
+}
+
+.grid-column--fullwidth {
+    width: 100%;
+}
+
+/* Comparison table */
+
+.comparison-table .grid-column {
+    border: solid 2px #EDEDEE;
+    padding: 0px 30px;
+}
+
+.comparison-table .table__category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-bottom: solid 2px #F6F6F6;
+    margin: 0px -30px;
+    padding: 6px;
+}
+
+.comparison-table .table__category i {
+    font-size: 12px;
+}
+
+.comparison-table .table__name {
+    margin-bottom: 40px;
+}
+
+.comparison-table .table__name h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.comparison-table ul {
+    list-style: none;
+}
+
+.comparison-table li {
+    margin-bottom: 18px;
+}
+
+.comparison-table i {
+    font-size: 14px;
+    margin-right: 3px;
 }
