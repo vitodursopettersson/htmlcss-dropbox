@@ -64,7 +64,76 @@ span {
     font-weight: 400;
 }
 
+/* Button */
+
 button {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
+    background-color: var(--main-color);
+    color: #ffffff;
+    padding: 6px 16px;
+    border: none;
+}
+
+/* 
+--------------
+Header Nav
+--------------
+*/
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+header div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    font-size: 16px;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* Animazione Hover */
+
+header li:hover {
+    border-bottom: 2px solid;
+    border-color: var(--main-color);
+}
+
+/* 
+--------------
+Header Above
+--------------
+*/
+
+section.above {
+    background-color: var(--snd-color);
+    padding-top: 100px;
+}
+
+.container--big {
+    width: 1200px;
+    margin: 0 auto;
 }
