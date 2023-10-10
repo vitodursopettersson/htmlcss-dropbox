@@ -355,6 +355,10 @@ main img {
     display: block;
     background-color: #F5F5F5;
     padding: 50px;
+    height: calc(100vw/3);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
 }
 
 .grid__group--big img {
