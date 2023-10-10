@@ -356,7 +356,7 @@ main img {
     background-color: #F5F5F5;
     padding: 50px;
     height: calc(100vw/3);
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 
 }
