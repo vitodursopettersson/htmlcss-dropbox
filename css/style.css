@@ -338,3 +338,43 @@ main img {
 }
 
 /* Dropbox Business */
+
+.grid-container {
+    width: 100%;
+    display: flex;
+}
+
+.grid__group {
+    width: calc(100%/3);
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100%/2);
+}
+
+
+.grid__item img {
+    width: 50%;
+}
+
+#designit {
+    background-color: #A2D39B;
+}
+
+#asu {
+    background-color: #61082B;
+}
+
+#uniflo {
+    background-color: #2C93CE;
+}
+
+#topps {
+    background-color: #FA221C;
+}
