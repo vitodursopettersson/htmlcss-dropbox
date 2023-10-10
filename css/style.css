@@ -420,7 +420,6 @@ section#client {
 /* Section Cta */
 
 section#cta {
-    margin: 0px;
     background-color: var(--snd-color);
 }
 
@@ -449,4 +448,15 @@ section#cta {
     padding: 14px 42px;
     background-color: #ffffff;
     color: var(--text-color);
+}
+
+/* Faq */
+
+.faq-container hr {
+    margin: 40px 0px;
+}
+
+.faq__question {
+    display: flex;
+    justify-content: space-between;
 }
