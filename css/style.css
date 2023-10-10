@@ -412,3 +412,41 @@ main img {
 #clear {
     background-color: #FBD830;
 }
+
+section#client {
+    margin-bottom: 0px;
+}
+
+/* Section Cta */
+
+section#cta {
+    margin: 0px;
+    background-color: var(--snd-color);
+}
+
+#cta .column {
+    padding: 100px;
+}
+
+#cta .column .column--big {
+    width: 60%;
+}
+
+#cta .column .column--small {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+#cta .column--big h2 {
+    color: #61082B;
+    margin-bottom: 0px;
+}
+
+#cta .column--small button {
+    padding: 14px 42px;
+    background-color: #ffffff;
+    color: var(--text-color);
+}
