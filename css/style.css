@@ -21,7 +21,7 @@ Design System
 :root {
     --main-color: #3661FF;
     --snd-color: #B4D0E7;
-    --text-color: #000000;
+    --text-color: #474747;
     --alt-color: #61082B;
 
 }
@@ -33,9 +33,9 @@ body {
 }
 
 h1 {
-    font-size: 80px;
-    font-weight: 700;
-    margin-bottom: 50px;
+    font-size: 77px;
+    font-weight: 800;
+    margin-bottom: 48px;
 }
 
 h2 {
@@ -96,7 +96,7 @@ Header Nav
 */
 
 nav {
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,7 +150,7 @@ Header Above
 
 section.above {
     background-color: var(--snd-color);
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .container--big {
@@ -179,18 +179,23 @@ section.above {
 .above .column--small__text {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     align-items: flex-start;
 }
 
 .above .column--small__icon i {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
 .above img {
     width: 100%;
     margin-bottom: -80px;
+}
+
+.above button {
+    font-size: 16px;
+    padding: 11px 16px;
 }
 
 /* 
@@ -209,7 +214,17 @@ section {
 }
 
 .input-group {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group input {
+    margin-right: 3px;
+}
+
+.input-group span {
+    margin-right: 60px;
 }
 
 main img {
@@ -251,8 +266,8 @@ main img {
     align-items: center;
     gap: 5px;
     border-bottom: solid 2px #F6F6F6;
-    margin: 0px -30px 20px;
-    padding: 6px;
+    margin: 0px -30px 30px;
+    padding: 8px;
 }
 
 .comparison-table .table__category i {
@@ -260,7 +275,7 @@ main img {
 }
 
 .comparison-table .table__name {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .comparison-table .table__name span {
@@ -282,7 +297,7 @@ main img {
 }
 
 .comparison-table li {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     display: flex;
     align-items: baseline;
 }
@@ -297,7 +312,12 @@ main img {
 }
 
 .comparison-table button {
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.table__cta a {
+    color: var(--main-color);
 }
 
 .comparison-table hr {
@@ -306,8 +326,8 @@ main img {
     border: 0.5px solid #E3E3E5;
 }
 
-.comparison-table h4 {
-    margin-bottom: 5px;
+.comparison-table .table__list h4 {
+    margin-bottom: 30px;
 }
 
 /* List Feature */
