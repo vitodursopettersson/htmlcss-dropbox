@@ -54,6 +54,7 @@ h3 {
 h4 {
     font-size: 14px;
     font-weight: 700;
+    margin-bottom: 6px;
 }
 
 h6 {
@@ -83,10 +84,18 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: #3677FF;
+}
+
 .button--alt {
     color: #030303;
     border: 1px solid #030303;
-    background-color: white;
+    background-color: #ffffff;
+}
+
+.button--alt:hover {
+    background-color: #f9f9f9;
 }
 
 /* 
@@ -151,6 +160,7 @@ Header Above
 section.above {
     background-color: var(--snd-color);
     padding-top: 80px;
+    margin-bottom: 150px;
 }
 
 .container--big {
@@ -205,7 +215,7 @@ Main
 */
 
 section {
-    margin-bottom: 150px;
+    margin-bottom: 60px;
 }
 
 .container {
@@ -446,15 +456,15 @@ section#cta {
 }
 
 #cta .column {
-    padding: 100px;
+    padding: 100px 0px;
 }
 
 #cta .column .column--big {
-    width: 60%;
+    width: 50%;
 }
 
 #cta .column .column--small {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -472,15 +482,27 @@ section#cta {
     color: var(--text-color);
 }
 
+#cta .column--small button:hover {
+    background-color: #f9f9f9;
+}
+
 /* Faq */
 
 .faq-container hr {
     margin: 40px 0px;
 }
 
-.faq__question {
+.faq__question__title {
     display: flex;
     justify-content: space-between;
+}
+
+.faq__question__text {
+    display: none;
+}
+
+.faq__question:hover .faq__question__text {
+    display: block;
 }
 
 /* 
